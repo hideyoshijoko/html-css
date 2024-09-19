@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <H1>Imagem dinamica</H1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/Foto-p.png" type="image/png">
+       <source media="(max-width:1050px )" srcset="imagens/Foto-m.png" type="image/png">
+        <img src="imagens/Foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio controls>
+        <source src="midia/Little-umbrellas-TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Videos em HTML5</h1>
+    <h2>Esse e um video sobre coco</h2>
+    <video width="500px" poster="imagens/tamb-de-coco.jpeg" controls>
+        <source src="midia/meu-video1.mp4" type="video/mp4">
+    </video>
+    <h1>Usando vidos externos</h1>
+    <h2>Inserindo video do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V8eWxOLXLK8?si=BPEiKVGuC1Cxtgcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

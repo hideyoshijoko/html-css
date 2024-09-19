@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightgray;
+            height: 30px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        div:hover {
+            background-color: brown;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p#a {
+            display: block ;
+        }
+    </style>
+</head>
+<body>
+    <div>01
+        <p id="a">A</p>
+    </div>
+    <div>02
+        <p>B</p>
+    </div>
+    <div>03
+        <p>C</p>
+    </div>
+</body>
+</html>

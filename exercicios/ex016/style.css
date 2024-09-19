@@ -1,0 +1,39 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgba(250, 250, 171, 0.688);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h1#principal {
+    text-align: center;
+    font-size: 40px;
+}
+.titulo-principal {
+    color: rgb(53, 53, 0);
+}
+h1 {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(137, 123, 0);
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(189, 189, 0) ;
+}
+.titulo-1 {
+    color:rgb(28, 189, 0);
+}
+.titulo-2 {
+    color: rgb(189, 183, 0);
+}
+.titulo-3 {
+    color: rgb(189, 0, 0);
+}
+p {
+    text-align: justify;
+}

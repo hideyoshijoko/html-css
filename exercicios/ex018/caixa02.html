@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(138, 208, 232);
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color:rgb(138, 208, 232) ;
+            padding: 10px;
+            margin: 10px;
+            border-radius:20px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.227);
+        }
+        article {
+            background-color: rgb(2, 206, 206);
+        }
+        article > aside {
+            background-color: aquamarine;
+        }
+        footer {
+            background-color:rgb(138, 163, 232);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        nav {
+            background-color: rgb(221, 238, 112);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.397);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes Politicas Tecmologia</p>
+        </section>
+        <section id="Noticias">
+            <article>          
+                <h2>noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas officia repudiandae reiciendis necessitatibus ut autem eveniet fuga omnis est cum sint, tempore quisquam voluptates illum libero eos perferendis blanditiis ducimus?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvilvido por Hideyoshi Joko</p>
+    </footer>
+    
+</body>
+</html>
