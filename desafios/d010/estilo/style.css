@@ -97,7 +97,7 @@ main h2 {
     background-image: linear-gradient(to right,#9fddbb, white );
     font-size: 20px;
     color: var(--cor4);
-    font-family: "idroid";
+    font-family: var(--font-android);
     padding-left: 10px;
 }
 
