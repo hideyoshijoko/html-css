@@ -5,28 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta no espaco</title>
     <style>
-       body {
-        background-image: url(imagens/espaco.jpg);
-        background-size: 1680px 1050px;
-       }
-       div {
-        border: 1px solid rgba(0, 0, 0, 0);
-        width: 500px;
-        height: 500px;
-        background-image:url(imagens/astronauta.png) ;
-        background-size: 500px;
-        position: absolute;
-        
-       }
-    
        
+       #espaco {
+        position: relative;
+        height: 100vh;
+        background-color: black;
+        background-image: url(imagens/espaco.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+  
+       }
 
-
+       #astronauta {
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        background-image: url(imagens/astronauta.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        left: 50%;
+        
+        transform:translate(-50%, -50%)
+       }
+       
     </style>
    
 </head>
 <body>
-    <div>
+    <div id="espaco">
+        <div id="astronauta">
+
+        </div>
       
     </div>
     
