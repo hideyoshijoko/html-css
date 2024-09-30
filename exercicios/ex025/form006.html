@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/Formulario</title>
+</head>
+<body>
+    <h1>Testando Formularios</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Cadastro de dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="iidade">Idade</label>
+                <input type="number" name="idade" id="iidade">
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="imas"> Masuculino <br>
+                <input type="radio" name="sexo" id="ifem"> Feminino
+            </p>
+            <p>
+                <label for="icor">Cor preferida</label>
+                <input type="color" name="cor" id="icor"> <br>
+                <label for="iava">Nos diga o quanto voce esta empolgado de 0 a 5</label>
+                <input type="range" name="ava" id="iava" min="1" max="5">
+                <label for="ifoto">Carregue um arquivo PNG</label>
+                <input type="file" name="foto" id="ifoto">
+            </p>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

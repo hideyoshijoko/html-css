@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Formularios</title>
+    <style>
+        fieldset {
+            background-color: aquamarine;
+            border: 2px solid black;
+            box-shadow: 1px 1px 0px 3px rgba(0, 0, 0, 0.277);
+        }
+        legend {
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+        input {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exeplo de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="8" maxlength="20" placeholder="Nome completo">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required placeholder="kaizen@exemplo.com">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx)xxx-xxxx" pattern="^\(\d{2}\)\d{4}-\d{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enivar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
