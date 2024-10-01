@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Estilos para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: lightgray;
+
+}
+header h1 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+menu {
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+}
+main h2 {
+   padding-bottom: 20px;
+}
+
+article {
+    width: 600px;
+    margin: auto;
+
+}
