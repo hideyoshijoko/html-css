@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#container {
+            background-color: rgb(212, 170, 119);
+            height: 100px;
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: nowrap; */
+            flex-flow: column wrap;
+        }
+
+        div#itens {
+            background-color: rgb(91, 184, 184);
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="itens">Exemplo de bloco a</div>
+        <div id="itens">Exemplo de bloco b</div>
+        <div id="itens">Exemplo de bloco c</div>
+        <div id="itens">Exemplo de bloco d</div>
+        <div id="itens">Exemplo de bloco e</div>
+        <div id="itens">Exemplo de bloco f</div>
+        <div id="itens">Exemplo de bloco g</div>
+    </div>
+    
+</body>
+</html>
