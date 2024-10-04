@@ -1,51 +1,32 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
-    <style>
-        div#container {
-            background-color: rgb(212, 170, 119);
-            display: flex;
-            height: 500px;
-            align-items: flex-start;
-            flex-flow: row nowrap;
-        }
-
-        div.itens {
-            background-color: rgb(91, 184, 184);
-            border: 1px solid black;
-            text-align: center;
-            flex-basis: 200px;          
-        }
-
-        div#cx1{
-            flex: 0 1 200px;
-            /* flex-grow: 1;
-            flex-shrink: 1;
-            flex-basis: 200px;    */
-        }
-        div#cx2{
-            flex: 2 1 200px;
-            /* flex-grow: 2;
-            flex-shrink: 1;
-            flex-basis: 200px;    */
-        }
-        div#cx3{
-            flex: 1 1 200px;
-            /* flex-grow: 1;
-            flex-shrink: 1;
-            flex-basis: 200px;    */
-        }
-    </style>
+    <title>Menu Flex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <div id="container">
-        <div class="itens" id="cx1">A</div>
-        <div class="itens" id="cx2">B</div>
-        <div class="itens" id="cx3">C</div>
-    </div>
-    
+    <header>
+        <h1>Meu site</h1>
+        <nav>           
+            <a href="#">Opition 1</a></li>
+            <a href="#">Opition 2</a></li>
+            <a href="#">Opition 3</a></li>
+            <a href="#">Opition 4</a></li>
+            <a href="#">Opition 5</a></li>
+            <a href="#">Opition 6</a></li> 
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de flexbox</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem similique quam cumque eum quasi harum velit error tempora explicabo! Dicta, deleniti velit consequuntur perferendis sapiente aliquid labore distinctio ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam reiciendis vitae itaque quam repellendus sit, explicabo minima numquam tenetur vel, nesciunt possimus. Libero voluptates dolorum pariatur nesciunt provident delectus!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, expedita quisquam sunt molestiae repellat maxime similique inventore. Voluptatem mollitia neque laboriosam natus, aliquam rem harum cumque blanditiis modi repudiandae doloremque?
+        </p>
+    </main>
 </body>
 </html>
